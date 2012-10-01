@@ -1,14 +1,13 @@
 /*   
-Theme Name: OpenNote
-Theme URI: http://collideoscope.org/projects/opennote-wordpress-theme/
-Description: A theme for a personal note-taking site designed to be fast and clean.
+Theme Name: OpenNote2
+Theme URI: http://erickiel.com/projects/opennote/
+Description: A theme for a personal note-taking site designed to be fast, clean and easy on the eyes.
 Author: Eric Kiel
-Author URI: http://collideoscope.org
-Tags: orange,white, two-columns, flexible-width
-Version: 1.0
+Author URI: http://erickiel.com
+Tags: grey,white, two-columns, flexible-width
+Version: 2.0
 License: http://www.opensource.org/licenses/gpl-license.php
 */
-
 .clear {
 	clear:both;
 	height:1px;
@@ -29,10 +28,10 @@ License: http://www.opensource.org/licenses/gpl-license.php
 }
 
 body {
-	background: #ffffff;
+	background: #3C3C3C;
 	font-size: 9pt;
 	line-height: 1.5;
-	color: #505050;
+	color: #d7d4cb;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 img { 
@@ -55,7 +54,7 @@ form {
 	display: inline;
 }
 #blogtitle h1 a {
-	color: #f26522;
+	color: #d7d4cb;
 	font-size: 16pt;
 	text-decoration: none;
 	font-weight: normal;
@@ -79,17 +78,19 @@ form {
 	padding-left: 15px;
 	font-weight: bold;
 	text-decoration: none;
-	color: #505050;
+	color: #d7d4cb;
 
 	margin-left: 15px;
 	border-left: 1px solid #e0e0e0;
 }
 #menu ul li a:hover {
-	color: #f26522;
+	color: #7b8c8a;
+	border-bottom: 1px dotted #3a4040;
+	text-decoration: underline;	
 }
 
 #blogdescription {
-	color: #909090;
+	color: #d7d4cb;
 	font-size:10pt;
 	font-weight: bold;
 }
@@ -109,11 +110,14 @@ form {
 }
 
 #sitemeta a {
-        color: #252525;
+        color: #d7d4cb;
+        text-decoration: underline;
 }
 
 #sitemeta a:hover {
-        color: #f26522;
+        color: #7b8c8a;
+	    border-bottom: 1px dotted #3a4040;
+	    text-decoration: underline;
 }
 
 #meta li.rss {
@@ -125,18 +129,18 @@ form {
 	margin: 0px 20px 0px 20px;
 }
 #newsflash a {
-        color: #f26522;
+        color: #d7d4cb;
 }
 
 #bd {
 	margin: 0px 230px 0px 0px;
-        color: #505050;
+        color: #d7d4cb;
 }
 #sidebar {	
         font-size: 8pt;
 	width: 200px;
 	float: right;
-	color:#606060;
+	color:#3C3C3C;
 	padding-left: 10px;
         border-left: 1px solid #e0e0e0;
 }
@@ -164,27 +168,30 @@ li.vategories ul {
 	display: block;
 }
 #sidebar a {
-	color: #505050;
+	color: #d7d4cb;
 	text-decoration: none;
 }
 #sidebar a:hover {
-	color: #f26522;
+	color: #7b8c8a;
+	border-bottom: 1px dotted #3a4040;
+	text-decoration: underline;
 }
 #sidebar h2 {
 	font-size: 12pt;
 	font-weight: bold;
 	text-decoration: none;
 	display: inline;
+	color: #d7d4cb;
 }
 #aboutme a {
-	color: #f26522;
-	text-decoration: none;
+	color: #d7d4cb;
+	text-decoration: underline;
 }
 
 .post-wrap {
 	margin-left: 0px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #e0e0e0;
+	border-bottom: 2px dashed #4A525A;
 	margin-bottom: 20px;
 }
 
@@ -199,27 +206,34 @@ li.vategories ul {
 	padding-top: 10px;
 }
 #yui-main a {
-	color: #f26522;
-	text-decoration: none;
+	color: #d7d4cb;
+	text-decoration: underline;
 }
+#yui-main a:hover {
+	color: #7b8c8a;
+	border-bottom: 1px dotted #3a4040;
+	text-decoration: underline;
+	}
 #yui-main h1 {
 	display: inline;
-	color: #f26522;
+	color: #d7d4cb;
 	font-size: 14pt;
 	text-decoration: none;
 	font-weight: normal;
 }
 #yui-main h1 a {
-	color: #505050;
+	color: #d7d4cb;
 	text-decoration: none;
 }
 #yui-main h1 a:hover {
-	color: #f26522;
+	color: #7b8c8a;
+	border-bottom: 1px dotted #3a4040;
+	text-decoration: underline;
 }
 
 #yui-main h2 {
 	display: inline;
-	color: #f26522;
+	color: #d7d4cb;
 	font-size: 14pt;
 	text-decoration: none;
 	font-weight: normal;
@@ -229,29 +243,29 @@ li.vategories ul {
 	font-size: 14pt;
 }
 #yui-main h2 a:hover {
-	color: #f26522;
+	color: #7b8c8a;
+	border-bottom: 1px dotted #3a4040;
+	text-decoration: underline;
 }
 blockquote {
 	margin: 10px;
 	font-size: 10pt;
         padding: 10px;
-        border: 1px dashed #f26522;
+        border: 1px dashed #7b8ca;
         background:#fafafa;
 }
 blockquote p {
 	padding: 0px;
 	margin: 0px;
 }
-pre {
-        font-family:'Courier New', Courier, Monospace, Fixed;
+pre, code {
+    font-family:'Courier New', Courier, Monospace, Fixed;
 	line-height: normal;
-        overflow: auto;
+    overflow: auto;
 	padding-bottom: 25px;
 	margin: 0px;
-
-	background-image:url('images/bg_pre_dots.png');
-	background-repeat: repeat-x;
-	background-position: bottom left;
+	background: #d7d4cb;
+	color: #3C3C3C
 }
 cite {
 	font-weight: bold;
@@ -262,7 +276,7 @@ cite {
 	border: 1px solid #bdc1a3; 
 	padding: 5px;
 	font-size: 8pt;
-	background:#ffffff;
+	background:#d7d4cb;
 	color: #363636;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
@@ -279,8 +293,8 @@ cite {
 }
 #submit, #searchsubmit {
 	font-size: 8pt;
-	background: #f26522;
-	color: #ffffff;
+	background: #7b8c8a;
+	color: #d7d4cb;
 	border: 1px solid #a0a0a0; 
 }
 
@@ -300,6 +314,6 @@ dl, dd, dt {
 	margin: 0px;
 }
 #footnote a {
-	color: #f26522;
-	text-decoration: none;
+	color: #d7d4cb;
+	text-decoration: underline;
 }
